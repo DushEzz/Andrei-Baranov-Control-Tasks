@@ -54,11 +54,11 @@ int main()
     cout << "Ваше уровень - ";
 
     // Чтобы сказать пользователю его уровень стрельбы, проверяем общее количество очков на вхождение в соответствующие диапазоны (иначе новичек)
-    if (total_points > 35 && total_points <= 50)
+    if (total_points > 35)
     {
         cout << "снайпер";
     }
-    else if (total_points > 20 && total_points <= 35)
+    else if (total_points > 20)
     {
         cout << "стрелок";
     }
