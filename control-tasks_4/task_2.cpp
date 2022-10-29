@@ -5,9 +5,9 @@ using namespace std;
 
 bool Input(int& a, int& b)
 {
-	cout << Введите два положительных числа через пробел ; cin  a; cin  b;
+	cout << Введите два положительных числа через пробел ; cin >> a; cin >> b;
 
-	if (a  0 && b  0)
+	if (a > 0 && b > 0)
 	{
 		return true;
 	}
